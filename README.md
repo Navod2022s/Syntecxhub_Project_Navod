@@ -34,21 +34,24 @@ The workflow includes:
   * Tuned Random Forest (GridSearchCV)
   
 ## 📈 Model Performance
-* Model	R²	RMSE
-* Linear Regression	0.6254	70060
-* Decision Tree	0.6287	69755
-* Random Forest	0.8165	49038
-* Tuned Random Forest	0.8194	~48500
+| Model               |     R² |   RMSE |
+| ------------------- | -----: | -----: |
+| Linear Regression   | 0.6254 |  70060 |
+| Decision Tree       | 0.6287 |  69755 |
+| Random Forest       | 0.8165 |  49038 |
+| Tuned Random Forest | 0.8194 | ~48500 |
+
 ## 📊 Key Insights
 * Median income is the strongest predictor of house prices
 * Coastal locations tend to have higher prices
 * Random Forest significantly outperforms linear models
 ## 📉 Visualizations
-* Model Comparison
+ * Model Comparison
+ * Feature Importance
+ * Actual vs Predicted
 
 ## Feature Importance
 
-* Actual vs Predicted
 
 ## 🚀 Final Model
 
